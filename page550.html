@@ -14,7 +14,7 @@
         <form>
             <div class="eingaben">
                 <label for="inputIstAbstand"><u>IST Abstand: </u></label>
-                <input id="inputIstAbstand" type="text">
+                <input placeholder="Ist Abstand in mm" id="inputIstAbstand" type="text">
                 <button type="button" onclick="abstand550()" id="btnBerechnenAbstand">berechnen</button>
             </div><br>
             <div class="überschrift">
@@ -28,15 +28,15 @@
     <form>
         <div id="überschrift">
             <h2><u><b>Höhenbereich</b></u></h2>
-            <p id="sollabstandLabel">Sollabstand = 1665 mm</p>
+            <p id="sollhöheLabel">Sollhöhe = 550 mm</p>
         </div>
         <div class="eingaben">
-            <label for="inputIstAbstand"><u>IST Höhe: </u></label>
-            <input id="inputIstAbstand" type="text">
-            <button type="button" onclick="abstand550()" id="btnBerechnenAbstand">berechnen</button>
+            <label for="inputIstHöhe"><u>IST Höhe: </u></label>
+            <input placeholder="Ist Höhe in mm" id="inputIstHöhe" type="text">
+            <button type="button" onclick="höhe550()" id="btnBerechnenHöhe">berechnen</button>
         </div><br>
         <div class="überschrift">
-            <p id="resultAbstand550"></p>
+            <p id="resultHöhe550"></p>
         </div>
     </form>
     <script src="a550.js"></script>
