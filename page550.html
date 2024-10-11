@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahnsteig550</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="überschrift">
+        <h2><u><b>Abstandsbereich</b></u></h2>
+        <p id="sollabstandLabel">Sollabstand = 1665 mm</p>
+    </div>
+        <form>
+            <div class="eingaben">
+                <label for="inputIstAbstand"><u>IST Abstand: </u></label>
+                <input id="inputIstAbstand" type="text">
+                <button type="button" onclick="abstand550()" id="btnBerechnenAbstand">berechnen</button>
+            </div><br>
+            <div class="überschrift">
+                <p id="resultAbstand550"></p>
+            </div>
+        </form>
+    </div>
+
+    
+
+    <form>
+        <div id="überschrift">
+            <h2><u><b>Höhenbereich</b></u></h2>
+            <p id="sollabstandLabel">Sollabstand = 1665 mm</p>
+        </div>
+        <div class="eingaben">
+            <label for="inputIstAbstand"><u>IST Höhe: </u></label>
+            <input id="inputIstAbstand" type="text">
+            <button type="button" onclick="abstand550()" id="btnBerechnenAbstand">berechnen</button>
+        </div><br>
+        <div class="überschrift">
+            <p id="resultAbstand550"></p>
+        </div>
+    </form>
+    <script src="a550.js"></script>
+</body>
+</html>
