@@ -1,3 +1,4 @@
+
 body{
   background: linear-gradient(to left, #432371, #faae7b);
 }
@@ -31,7 +32,7 @@ p{
   font-size: 1.4em;
   
 }
-#inputIstAbstand{
+#inputIstAbstand, #inputIstHöhe{
   padding: .5em;
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -40,13 +41,13 @@ p{
   margin-left: 2em;
   border-radius: 8px;
 }
-#sollabstandLabel{
+#sollabstandLabel, #sollhöheLabel{
   padding-bottom: .2em;
   font-size: 1.2em;
   color: rgb(255, 255, 255);
   
 }
-#btnBerechnenAbstand{
+#btnBerechnenAbstand, #btnBerechnenHöhe{
   margin-top: 2em;
   border-radius: 4px;
   width: 8em;
